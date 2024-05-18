@@ -1,0 +1,11 @@
+{
+  "name": "mm-screen",
+  "version": "1.0.0",
+  "description": "sample MM module:",
+  "main": "MMM-ScreenControl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vk",
+  "license": "ISC"
+}
