@@ -1,0 +1,22 @@
+.mmm-screen-control.container {
+    display: inline-flex;
+    gap: 5px;
+    z-index: 10000;
+}
+
+.mmm-screen-control.circle {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #e0d9d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.mmm-screen-control.circle.active {
+    background-color: #ddd;
+    border-color: #ddd;
+}
